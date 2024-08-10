@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow: hidden;
+}
+.container{
+    display: flex;
+}
+.leftDiv{
+    display: flex;
+    background-color: antiquewhite;
+    width: 40vw;
+    height: 100vh;
+    background-image: url("https://img.freepik.com/free-photo/abstract-geometric-background-with-liquid-shapes-generative-ai_8829-2896.jpg?t=st=1723277726~exp=1723281326~hmac=399d454c5a996b6f6c12e2081fe2352069c7e41b9bb335ddf0d5f166092273bd&w=1380");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.rightDiv{
+    width: 60%;
+    /* outline: 1px solid red; */
+    background-color: #F9FAFB;
+}
+
+.formDIv{
+    display: flex;
+    /* outline: 1px solid red; */
+    justify-content: space-evenly;
+}
+
+#firstDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 25%;
+    text-align: left;
+    margin: 0;
+    padding-left: 5%;
+    color: #222;
+}
+#firstDiv, h1{
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 38px;
+    margin: 0;
+    padding-bottom: 25px;
+}
+#firstDiv, h2{
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 38px;
+    margin: 0;
+}
+
+#secondDiv{
+    /* height: 50%; */
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5% 0 5% 5%;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.inputDiv{
+    display: flex;
+    justify-content: space-between;
+    /* outline: 1px solid red; */
+    width: 700px;
+}
+
+input{
+    width: 300px;
+    border: 1px solid #E8EAED;
+    border-radius: 4px;
+    height: 28px;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+}
+
+#thirdDiv{
+    height: 25%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 3% 0 0 0;
+
+}
+
+
+.allinputDiv{
+    /* outline: 1px solid red; */
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#createButton{
+    height: 40px;
+    width: 200px;
+    font-size: large;
+    font-weight: 500;
+    color: #fff;
+    background-color: #596D48;
+    padding:0;
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
+}
+
+
+#thirdDiv{
+    span{
+        /* outline: 1px solid red; */
+        color: #596D48;
+        font-weight: 600;
+    }
+}
